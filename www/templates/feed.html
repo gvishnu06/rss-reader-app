@@ -1,0 +1,10 @@
+<ion-view view-title="Feed">
+  <ion-content>
+    <h1>{{feed.title}}</h1>
+     <iframe iframe-set-dimentions-onload width="100%"  ng-attr-srcdoc="{{feed.content}}"></iframe>
+   <!--  <p>{{feed.content}}</p> -->
+    <p>author: {{feed.author}}</p>
+  </ion-content>
+</ion-view>
+
+
